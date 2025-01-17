@@ -3,7 +3,7 @@ import torch
 
 app = Flask(__name__)
 
-@app.route('/gpu-info', methods=['GET'])
+@app.route('/', methods=['GET'])
 def get_gpu_info():
     if torch.cuda.is_available():
         gpu_info = {
