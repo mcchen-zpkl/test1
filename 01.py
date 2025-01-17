@@ -1,4 +1,4 @@
-import torch
+import torch123
 
 torch_version = torch.__version__
 cuda_version_pt = torch.version.cuda
